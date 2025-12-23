@@ -25,7 +25,12 @@ return {
 			"williamboman/mason.nvim",
 			opts = {}
 		},
-    		"neovim/nvim-lspconfig",
+		{
+    		
+			"neovim/nvim-lspconfig",
+			config = function()
+			end
+		}
 	}
     },
 }
