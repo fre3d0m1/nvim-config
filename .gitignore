@@ -1,0 +1,8 @@
+# Neovim state and caches
+.netrwhist
+undo/
+backups/
+swp/
+
+# Lazy.nvim managed plugins (don't upload these!)
+lazy-lock.json
