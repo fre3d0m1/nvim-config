@@ -1,6 +1,7 @@
 require("akita")
 require("config.lazy")
 
+<<<<<<< HEAD
 require("conform").setup({
 	formatters_by_ft = {
 		lua = { "stylua" },
@@ -35,3 +36,6 @@ if vim.fn.filereadable(vim.fn.getcwd() .. '/project.godot') == 1 then
 	end
 	vim.fn.serverstart(addr)
 end
+=======
+
+>>>>>>> 0e540c13bab9054c84a022327823614ccf2f96be
