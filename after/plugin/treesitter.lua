@@ -3,6 +3,6 @@ require'nvim-treesitter'.setup {
   install_dir = vim.fn.stdpath('data') .. '/site'
 }
 
-require'nvim-treesitter'.install { 'help', 'javascript', 'typescript', 'c', 'lua', 'rust', 'gdscript', }
+require'nvim-treesitter'.install { 'help', 'javascript', 'typescript', 'c', 'lua', 'rust', 'gdscript', 'godot-resource', 'gdshader' }
 
 
