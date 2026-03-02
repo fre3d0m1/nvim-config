@@ -29,6 +29,16 @@ return {
     		
 			"neovim/nvim-lspconfig",
 			config = function()
+				local gd_cfg = vim.lsp.config.gdscript
+
+				vim.lsp.config('gdscript', {
+					cmd = {"ncat", "localhost", "6005"},
+					-- Merge with the defaults from nvim-lspconfig
+					root_markers = gd_cfg.root_markers,
+					filetypes = gd_cfg.filetypes,
+				})
+
+				vim.lsp.enable('gdscript')
 			end
 		}
 	}
